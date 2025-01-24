@@ -27,3 +27,10 @@ console.log("New Balance after payment:", accountBalance -= 250);
 
 //gained interest on account balance at the end of month
 console.log("Interest Gained:", accountBalance *= .05);
+
+//Task 4: String Data Type
+let customerName = "Elijah Martin";
+let welcomeMessage = "Welcome to our store";
+
+//putting strings together using concatenate
+console.log(welcomeMessage.concat(" ", customerName));
